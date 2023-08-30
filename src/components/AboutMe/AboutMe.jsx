@@ -62,10 +62,10 @@ const AboutMe = () => {
                       />
                     </div>
                   </div>
-
+                  
                   <div className="itscv">
                     <a
-                      href="https://drive.google.com/file/d/1hbMrAi1ginn9AHFE0uZK1eN0ucUtcBB0/view?usp=drive_link"
+                      href={details.cv_link}
                       download="RESUME.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
